@@ -1,0 +1,12 @@
+
+public class datatype {
+
+	public static void dataType() {
+		System.out.println("---------data Type ----------");
+		byte b = 10;
+		System.out.println("-----byte º¯¼ö B : " + b);
+		// TODO Auto-generated method stub
+
+	}
+
+}

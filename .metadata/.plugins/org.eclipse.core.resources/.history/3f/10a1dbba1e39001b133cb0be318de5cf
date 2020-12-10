@@ -1,0 +1,55 @@
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hellom,welcome to the java world!");
+		
+		//변수의 선언 및 사용
+		int x = 1;
+		int y = 2;
+		int result = x + y;
+		
+		System.out.println(result);
+		
+		
+//		변수의 데이터 타입 교차 사용 불가
+		
+//		int num = 100;
+//		System.out.println(num);
+//		
+//		
+
+		int var1 = 10;
+		
+		System.out.println("main 함수에서 선언한 변수 var1의 값 " + var1);
+		
+		if (true) {
+			int var2 = 20;
+			System.out.println("lf 문에서 선언한 변수 var2의 값 : "+ var2);
+			
+		}
+		
+		for (int i = 0; i< 1; i++) {
+			int var3 = 30;
+			System.out.println("for 문ㄴ에서 선언한 변수 var 3의 값 : " +var3);
+		}
+	
+		System.out.println("---------data Type ----------");
+		byte b = 10;
+		System.out.println("-----byte 변수 B : " + b);
+		
+		char c = 100;
+		System.out.print(c);
+		char c1 = 10;
+		char c2 = (char) (c + c1);
+		System.out.print(c2);
+		
+	
+	
+
+		
+		
+		
+
+}

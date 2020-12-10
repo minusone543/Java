@@ -1,0 +1,12 @@
+package ch03;
+
+public class Ch03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Q1 q1 = new Q1();
+		q1.q1();
+		
+	}
+
+}
